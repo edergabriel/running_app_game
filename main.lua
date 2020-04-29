@@ -167,7 +167,7 @@ camera:add(pneu1, 1)
    local solidTower3 = display.newImageRect('img/buildings.png',500, 800)
    solidTower3.anchorX = 0
    solidTower3.anchorY = 0
-   solidTower3.x = display.contentCenterX - 1130
+   solidTower3.x = display.contentCenterX - 1530
    solidTower3.y = display.contentCenterY - 400
    solidTower3.name = "wall"
    physics.addBody(solidTower3, "static", {density=1, bounce=0.1, friction=.2})
